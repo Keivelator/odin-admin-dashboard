@@ -73,6 +73,17 @@ a {
     background-color: burlywood;
 }
 
+.projects-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.projects-item {
+    background-color: white;
+    padding: 1rem;
+}
+
 .trending {
     grid-column: 2 / 3;
 }
